@@ -1832,7 +1832,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #db6bff;
+  background: #e729ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2617,10 +2617,10 @@ hr {
   margin-top: 80px;
 }
 .header {
-  background: #f5f5f5;
+  background: url("https://github.com/leishianquan/leishaianquan.github.io/blob/master/images/background.jpg?raw=true");
 }
 .header-inner {
-  padding: 25px 0 20px;
+  padding: 300px 0 300px;
 }
 .header-inner:before,
 .header-inner:after {
@@ -2650,6 +2650,7 @@ hr {
 .site-meta .brand {
   padding: 2px 1px;
   background: none;
+  color: #fff !important;
 }
 @media (max-width: 767px) {
   .site-meta .brand {
@@ -2660,7 +2661,7 @@ hr {
   display: none;
 }
 .site-meta .site-title {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bolder;
 }
 @media (max-width: 767px) {
@@ -2683,6 +2684,7 @@ hr {
 }
 .logo-line-before i,
 .logo-line-after i {
+  background: #fff !important;
   position: relative;
   display: block;
   height: 2px;
@@ -2729,11 +2731,12 @@ hr {
   }
 }
 .menu .menu-item a {
-  padding: 0 10px;
+  padding: 10 20px;
   background: none;
   border: none;
   border-radius: 2px;
   transition-property: background;
+  color: #fff !important;
 }
 @media (max-width: 767px) {
   .menu .menu-item a {
